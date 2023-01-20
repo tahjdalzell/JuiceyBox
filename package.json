@@ -1,10 +1,9 @@
 {
   "name": "juicebox",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "seed:dev": "nodemon ./db/seed.js", 
+    "seed:dev": "nodemon ./db/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,7 +14,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahjdalzell/JuiceyBox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tahjdalzell/JuiceyBox/issues"
+  },
+  "homepage": "https://github.com/tahjdalzell/JuiceyBox#readme",
+  "description": ""
 }
-
-
